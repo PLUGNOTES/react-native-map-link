@@ -19,7 +19,7 @@ import { getAvailableApps, checkNotSupportedApps } from '../utils'
 import { showLocation } from '../index'
 import { titles, icons } from '../constants'
 
-const { height: SCREEN_HEIGHT } = Dimensions.get('screen')
+const { height: SCREEN_HEIGHT } = Dimensions.get('window')
 
 const colors = {
   black: '#464646',
